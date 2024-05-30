@@ -1,0 +1,20 @@
+/* div p{
+   color: seagreen;
+}
+div span{
+  color:salmon
+} */
+/* Its work */
+/* div>article>p, div>article>span{
+  color:deeppink;
+} */
+div>article>p{
+  color:yellowgreen
+}
+div>article>span{
+  color:aquamarine;
+  background-color: black;
+}
+div>article>main>p,span{
+  color:chocolate;
+}

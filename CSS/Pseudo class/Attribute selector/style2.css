@@ -1,0 +1,6 @@
+ol>li[title="ghar"]::marker{
+  content: "😒 ";
+}
+ol>li[title="bahar"]::marker{
+  content: "😍 ";
+}

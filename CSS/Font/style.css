@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  place-items: center;
+  background-size: cover;
+  background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202009/3021/5ayReKkz8RaBVuTvrxgA3rvh.png');
+}
+.one{
+  font-size: 50px;
+  font-style: oblique;
+  font-family: cursive;
+  font-weight: bold;
+  font-variant: small-caps;
+  /* background-clip: text;  */
+  color: yellowgreen;
+  
+  /* background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202009/3021/5ayReKkz8RaBVuTvrxgA3rvh.png');  */
+}

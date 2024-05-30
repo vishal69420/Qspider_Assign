@@ -1,0 +1,13 @@
+article + div{
+  color: magenta;
+}
+article~div{
+  color:palevioletred
+}
+
+article>p~main{
+  color:purple
+}
+article p{
+  color:red;
+}

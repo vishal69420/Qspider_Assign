@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+}
+section{
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.section1{
+  background-image: url('https://wallpapers.com/images/featured/super-car-rs4kt951hmoug8s2.jpg');
+}
+.section2{
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230411/pngtree-car-light-effect-abstract-supercar-image_2205429.jpg');
+}
+.section3{
+  background-image: url('https://images.alphacoders.com/117/1178048.jpg');
+}
+.section4{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkvtbKfGLZmbHgwfjsL2TFe7uf-RW1Q3zgBLJy0OszOw&s');
+}
+.section5{
+  background-image: url('https://pbs.twimg.com/media/DhuoPSoVAAA8deI?format=jpg&name=4096x4096');
+}
+.section6{
+  background-image: url('https://cdn.motor1.com/images/mgl/mMxxrj/s3/lamborghini---ai-designed-supercars-of-the-future.jpg');
+}

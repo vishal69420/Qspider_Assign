@@ -1,0 +1,28 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head{
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.sub-heading{
+  color: grey;
+  margin-top: 5px;
+}
+.body{
+  margin-top: 0px;
+  margin-bottom: 0px;
+ font-size: 18px;
+ font-weight: light;
+}
+div{
+  margin-top: 10px;
+  background-color: forestgreen;
+  width: 100px;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 9px;
+  padding-right: 5px;
+  border-radius:5px;
+}

@@ -1,0 +1,13 @@
+div[title^="block-1"]{
+  color:purple
+
+}
+div[title^="block-1"]:hover{
+  background-color: yellowgreen;
+  box-shadow: 2px 2px 2px 3;
+  
+}
+div[title$="div-2"]
+{
+  color:salmon;
+}
