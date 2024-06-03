@@ -1,0 +1,48 @@
+*{
+box-sizing: border box;
+margin: 0;
+padding : 0;
+}
+body{
+width: 100vw;
+height: 100vh;
+justify-content: center;
+align-items: center;
+display:flex;
+background-color: #000000;
+
+}
+
+.container{
+  width: 800px;
+  height:450px;
+}
+.container>.card{
+  width:100%;
+  height:100%;
+  border: 1px solid #fff;
+  overflow: hidden;
+
+}
+.pic{ 
+  width:100%;
+  height:100%;
+  background-image: url('https://i.pinimg.com/736x/62/28/eb/6228eb9ddaad9fa5989da48264e126e9.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.pic:hover{
+  animation: box 2s ease-in-out 0s infinite alternate;
+  cursor: pointer;
+}
+@keyframes box {
+  from{
+    
+    scale : 1;
+  }
+  to{
+    scale: 1.5;
+  }
+  
+}
+
